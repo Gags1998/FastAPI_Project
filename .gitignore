@@ -1,0 +1,16 @@
+# Ignore the virtual environment folder
+.venv/
+venv/
+env/
+
+# Ignore the pyvenv configuration file
+pyvenv.cfg
+
+# Ignore library/dependency folders
+# Note: Usually you don't commit the 'lib' folder if it contains 3rd party packages
+lib/
+Scripts/
+bin/
+# Python bytecode
+__pycache__/
+*.py[cod]
